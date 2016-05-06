@@ -5,14 +5,10 @@ import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.CompoundButton;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.bojandevic.bihoskop.AppStatics;
 import com.bojandevic.bihoskop.R;
 import com.google.android.youtube.player.YouTubePlayerSupportFragment;
 import com.google.android.youtube.player.YouTubeInitializationResult;
@@ -66,7 +62,7 @@ public class BihoskopYoutubeFragment extends YouTubePlayerSupportFragment implem
         super.onCreate(bundle);
         activity     = getActivity();
         movieDetails = activity.findViewById(R.id.movieDetails);
-        initialize(AppStatics.DEVELOPER_KEY, this);
+        initialize(getString(R.string.youtube_developer_key), this);
     }
 
     @Override

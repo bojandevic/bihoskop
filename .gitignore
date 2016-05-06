@@ -32,3 +32,4 @@ local.properties
 *.ipr
 *~
 *.swp
+/src/main/res/values/youtube.xml
