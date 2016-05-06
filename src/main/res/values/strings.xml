@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bihoskop</string>
+    <string name="about">O programu</string>
+    <string name="title_movie_detail">Detalji filma</string>
+    <string name="movie_director">Režiser</string>
+    <string name="movie_length">Trajanje</string>
+
+    <string name="transition_poster">transition:POSTER</string>
+    <string name="transition_title">transition:TITLE</string>
+    <string name="transition_category">transition:CATEGORY</string>
+    <string name="transition_rating">transition:RATING</string>
+</resources>
